@@ -1,5 +1,7 @@
-package Web.Socket2;
+package Web.Socket2.Controller;
 
+import Web.Socket2.Entitie.ClientMessageDTO;
+import Web.Socket2.Entitie.MessageFromClientDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

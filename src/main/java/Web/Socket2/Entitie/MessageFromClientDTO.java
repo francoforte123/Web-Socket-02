@@ -1,4 +1,4 @@
-package Web.Socket2;
+package Web.Socket2.Entitie;
 
 public class MessageFromClientDTO {
 

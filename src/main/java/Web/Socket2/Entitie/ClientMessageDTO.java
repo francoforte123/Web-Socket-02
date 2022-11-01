@@ -1,10 +1,16 @@
-package Web.Socket2;
+package Web.Socket2.Entitie;
 
 public class ClientMessageDTO {
 
     private String clientName;
     private String clientAlert;
     private String clientMsg;
+
+    public ClientMessageDTO(String clientName, String clientAlert, String clientMsg) {
+        this.clientName = clientName;
+        this.clientAlert = clientAlert;
+        this.clientMsg = clientMsg;
+    }
 
     public String getClientName() {
         return clientName;
